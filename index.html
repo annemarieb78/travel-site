@@ -4,7 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <title>Travel Site - Home</title>
   </head>
-  <body></body>
+
+  <body>
+    <!--Header-->
+    <nav class="navigation-bar">
+      <h3 class="navigation-bar__logo">Travel Site</h3>
+      <div class="navigation-bar__menu">
+        <a href="./index.html"><div class="navigation-bar__item">Home</div></a>
+        <a href="pages/hawaii.html">
+          <div class="navigation-bar__item">Hawaii</div></a>
+        
+        <a href="pages/iceland.html">
+          <div class="navigation-bar__item">Iceland</div></a>
+        
+        <a href="pages/greece.html"
+          ><div class="navigation-bar__item">Greece</div></a>
+      </div>
+    </nav>
+    <!--End of Header-->
+
+    <!--Hero Section-->
+    <div class="hero-section">
+      <div class="hero-section__left-side">
+        <h1 class="hero-section__heading">
+          Travelling Comes With Endless Discoveries
+        </h1>
+        <p class="hero-section__tagline">
+          Don't let your dreams be just dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <button class="hero-section__get-started-button">Get Started</button>
+      </div>
+      <div class="hero-section__right-side">
+        <img class="hero-section__hero-image" src="./assets/Images/hero.png" />
+      </div>
+    </div>
+    <!--End of Hero Section-->
+
+    <!--Recommendations Section-->
+    <section class="container-recommendations">
+      <h1 class="container-recommendations__title">Recommendations</h1>
+      <div class="container-recommendations__card">
+      <a>
+      <div class="container-recommendations__card-destination">
+        <img class="container-recommendations__card--size" src="assets/Images/hawaii.jpg" />
+        <p class="container-recommendations__card-text">Hawaii</p>
+      </div>
+      </a>
+
+      <a>
+      <div class="container-recommendations__card-destination">
+        <img class="container-recommendations__card--size" src="assets/Images/iceland.jpg" />
+        <p class="container-recommendations__card-text">Iceland</p>
+      </div>
+      </a>
+
+      <a>
+      <div class="container-recommendations__card-destination">
+        <img class="container-recommendations__card--size" src="assets/Images/greece.jpg" />
+        <p class="container-recommendations__card-text">Greece</p>
+      </div>
+      </a>
+            
+      </div>
+    </section>
+    <!--End of Recommendations Section-->
+
+    <!--Footer-->
+    <footer class="footer-info">
+        <div class="footer-info__details-contact">
+            <h1>Contact</h1>
+                <p class="footer-info__details--red">EMAIL</p>
+                <p>info@travelsite.com</p>
+        </div>
+        <div class="footer-info__details-hours">
+            <h1>Hours</h1>
+                <div class="footer-info__details--flex">
+                    <div class="footer-info__details--flex-space">
+                <p><span class="footer-info__details--red">MONDAY - FRIDAY</span><br></br>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="footer-info__details--flex-space">
+                <p><span class="footer-info__details--red">SATURDAY</span><br></br>10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="footer-info__details--flex-space">
+                <p><span class="footer-info__details--red">SUNDAY</span><br></br>Closed</p>
+                </div>
+                </div>
+        </div>
+        <div class="footer-info__details-social">
+            <h1>Social</h1>
+            <div class="footer-info__social--inline">
+                <a href="http://instagram.com">
+                    <img class="footer-info__social-icon" src="assets/Icons/icon-instagram.png" />
+                </a>
+                <a href="http://facebook.com">
+                    <img class="footer-info__social-icon" src="assets/Icons/icon-facebook.png">
+                </a>
+                <a href="http://twitter.com">
+                    <img class="footer-info__social-icon" src="assets/Icons/icon-twitter.png" />
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+  </body>
 </html>
