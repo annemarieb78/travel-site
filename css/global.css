@@ -36,6 +36,10 @@ a {
   color: #335576;
 }
 
+.footer-info__details-social {
+  width: 200px;
+}
+
 .footer-info__details-hours {
   flex-grow: 0.15;
 }
@@ -56,7 +60,13 @@ a {
 }
 
 .footer-info__social-icon {
-  font-size: 30px;
+  max-width: 30px;
+  margin-right: 12%;
+}
+
+.footer-info__social-icon-fb {
+  max-width: 15px;
+  margin-right: 12%;
 }
 
 a:hover {
