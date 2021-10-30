@@ -28,6 +28,7 @@
   padding-left: 5%;
   padding-top: 2%;
   position: relative;
+  margin-top: 0;
 }
 
 .destination-section {
@@ -42,7 +43,7 @@
   width: 300px;
   height: 25rem;
   text-align: center;
-  padding-top: 3%;
+  padding: 5% 0 0 0;
   color: black;
 }
 
@@ -51,6 +52,7 @@
   font-weight: bold;
   border-bottom: 2px solid black;
   margin: 0 7%;
+  list-style-type: none;
 }
 
 .destination-section__card-text-details {
