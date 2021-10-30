@@ -65,6 +65,11 @@
   width: 100%;
   border-radius: 5px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 2s ease-in-out 100ms;
+}
+
+.container-recommendations__card--size:hover {
+  box-shadow: 0 4px 4px rgba(219, 122, 78, 0.8);
 }
 
 .container-recommendations__card-text {

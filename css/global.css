@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+.navigation-bar__item:hover {
+  background-color: rgba(219, 122, 78, 0.2);
+}
+
 .navigation-bar__item--active {
   border-bottom: 2px solid #db7a4e;
 }
