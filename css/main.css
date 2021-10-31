@@ -64,8 +64,9 @@
 .container-recommendations__card--size {
   width: 100%;
   border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  transition: background-color 2s ease-in-out 100ms;
+  transition: background-color;
 }
 
 .container-recommendations__card--size:hover {
